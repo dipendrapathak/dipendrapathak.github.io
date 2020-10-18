@@ -8,6 +8,32 @@
 <body>
 <h1> Hello from Dipendra Pathak </h1>
 <p> I'm hosted with GitHub Pages. More contents on its way. Watch out this space </p>
+<template>
+    <ul>
+      <li>
+        <slot name='h-1'></slot>
+        <ul>
+          <li><slot name='sh-1-1'></slot></li>
+        </ul>
+      </li>
+      <li><slot name='h-2'></slot></li>
+      <li><slot name='h-3'></slot></li>
+      <li>
+        <slot name='h-4'></slot>
+        <ul>
+          <li><slot name='sh-4-1'></slot></li>
+          <li><slot name='sh-4-2'></slot></li>
+          <li><slot name='sh-4-3'></slot></li>
+        </ul>
+      </li>
+    </ul>
+    <style>
+      ul {
+        list-style: none;
+      }
+    /* … */
+    </style>
+    </template>
 </body>
 </html>
     
