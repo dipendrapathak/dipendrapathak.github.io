@@ -28,29 +28,29 @@
             font-size: 18px;
             color: #555;
         }
-        .projects {
+        .projects, .important-urls {
             margin-top: 50px;
         }
-        .project {
+        .project, .url {
             background: #fff;
             margin-bottom: 20px;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .project h2 {
+        .project h2, .important-urls h2 {
             margin-top: 0;
             font-size: 24px;
         }
-        .project p {
+        .project p, .url p {
             font-size: 16px;
             color: #333;
         }
-        .project a {
+        .project a, .url a {
             color: #3498db;
             text-decoration: none;
         }
-        .project a:hover {
+        .project a:hover, .url a:hover {
             text-decoration: underline;
         }
     </style>
@@ -58,21 +58,52 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Dipendra's Projects</h1>
+            <h1>Dipendra Pathak</h1>
             <p>Welcome to my portfolio. Here are some of the projects I have completed.</p>
+			<div class="contact-info">
+                <p>Email: <a href="mailto:dipendra@example.com">dipendra@example.com</a></p>
+                <p>Website: <a href="https://rocketeers.com.au" target="_blank">https://rocketeers.com.au</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/dipendra" target="_blank">LinkedIn Profile</a></p>
+            </div>
         </div>
         <div class="projects">
             <div class="project">
-                <h2>Fanbucket.com</h2>
+                <h2>https://fanbucket.com</h2>
                 <p>A social networking platform that allows content creators to monetize their content while retaining full ownership of their data.</p>
                 <a href="https://fanbucket.com" target="_blank">Visit Fanbucket.com</a>
             </div>
             <div class="project">
-                <h2>Rocketeers.com.au</h2>
+                <h2>https://rocketeers.com.au</h2>
                 <p>An IT company providing a range of services including software development, IT consulting, and project management.</p>
                 <a href="https://rocketeers.com.au" target="_blank">Visit Rocketeers.com.au</a>
             </div>
+			
+			<div class="project">
+                <h2>http://pickrightsports.com/h2>
+                <p>Pick Right Sports is a skill-based sports predicting website for specific sporting competitions where you need to demonstrate your sporting knowledge to be in with a chance of winning. It is not affiliated with any sporting organization.</p>
+                <a href="https://pickrightsports.com" target="_blank">Visit Pickrightsports.com</a>
+            </div>
             <!-- Add more projects here -->
+        </div>
+
+        <div class="important-urls">
+            <h2>Important URLs</h2>
+            <div class="url">
+                <p><a href="https://llamacoder.together.ai/" target="_blank">AI to build a react app</a></p>
+            </div>
+            <div class="url">
+                <p><a href="https://ui.aceternity.com/" target="_blank">free ui/ux</a></p>
+            </div>
+            <div class="url">
+                <p><a href="tailwindcss.com" target="_blank">Awesome free css codes</a></p>
+            </div>
+			 <div class="url">
+                <p><a href="tailwindcss.com" target="_blank">Awesome free css codes</a></p>
+            </div>
+			<div class="url">
+                <p><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">Free projects idea/a></p>
+            </div>
+            <!-- Add more URLs here -->
         </div>
     </div>
 </body>
