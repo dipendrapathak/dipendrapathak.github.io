@@ -17,17 +17,17 @@ jobs:
           PASSWORD="2piWKz9u8GXrJRc5O36n70MVWvSwoXJm"
 
           # Define JSON body
-          BODY='{  "payload": [{"country": "NZ",
-      "fullAddress":"417"
-    }
-  ],
-  "featureOptions": {
-
-    "caseType": "TITLE"
-
-  }
-
-}'
+          BODY='{
+                    "payload": [
+                        {
+                            "country": "NZ",
+                            "fullAddress": "417"
+                        }
+                    ],
+                    "featureOptions": {
+                        "caseType": "TITLE"
+                    }
+                }'
 
           # Send POST request
           response=$(curl -s -o /dev/null -w "%{http_code}" \
